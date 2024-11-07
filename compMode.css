@@ -1,0 +1,136 @@
+* {
+    font-family: Itim;
+color: 	#FFFFFF;
+}
+body {
+background-color: #E0E0E0
+    
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+text-align: center;
+}
+h3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+text-align: center;
+top: 22%;
+color: white;
+
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    width: 40vw;
+    height: 50vh;
+    background-color: #2C2C2C;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    z-index: -1;
+}
+
+#start {
+    position: absolute;
+    top: 68%;
+    left: 25%;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: #4A90E2;
+
+}
+
+#CompQ{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    width: 18vw;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #E0E0E0;
+    color: black;
+    border-radius: 20px;
+
+}
+
+#great {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 10vw;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    font-size: 24px;
+    background-color: #7ED321;
+
+}
+
+#less {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 10vw;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    font-size: 24px;
+    background-color: #F5A623;
+
+}
+
+#correct{
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    width: 7vw;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    font-size: 17px;
+    background-color: #4A4A4A
+
+
+}
+
+#restart {
+    position: absolute;
+    top: 68%;
+    left: 60%;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    font-size: 17px;
+    color: white;
+    background-color: #50E3C2;
+
+}
+
+#start:hover {
+    background-color: #357ABD;
+}
+
+#great:hover {
+    background-color: #4CAF50;
+}
+
+#less:hover {
+    background-color: #FB8C00;
+}
+
+#correct:hover {
+    background-color: #8E24AA;
+}
